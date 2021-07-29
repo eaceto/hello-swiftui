@@ -1,0 +1,26 @@
+[
+    {
+        "iconName": "HIPAAIcon",
+        "title": "Identity Providers",
+        "briefDescription": "Auth0 supports social providers such as Google, Facebook, and Twitter, along with Enterprise providers such as Microsoft Office 365, Google Apps, and Azure. You can also use any OAuth 2.0 Authorization Server.",
+        "linkURL": "https://auth0.com/docs/identityproviders"
+    },
+    {
+        "iconName": "EnterpriseMFAIcon",
+        "title": "Multi-Factor Authentication",
+        "briefDescription": "You can require your users to provide more than one piece of identifying information when logging in. MFA delivers one-time codes to your users via SMS, voice, email, WebAuthn, and push notifications.",
+        "linkURL": "https://auth0.com/docs/mfa"
+    },
+    {
+        "iconName": "AdvanceProtectionIcon",
+        "title": "Attack Protection",
+        "briefDescription": "Auth0 can detect attacks and stop malicious attempts to access your application such as blocking traffic from certain IPs and displaying CAPTCHA. Auth0 supports the principle of layered protection in security that uses a variety of signals to detect and mitigate attacks.",
+        "linkURL": "https://auth0.com/docs/attack-protection"
+    },
+    {
+        "iconName": "PrivateCloudIcon",
+        "title": "Serverless Extensibility",
+        "briefDescription": "Actions are functions that allow you to customize the behavior of Auth0. Each action is bound to a specific triggering event on the Auth0 platform. Auth0 invokes the custom code of these Actions when the corresponding triggering event is produced at runtime.",
+        "linkURL": "https://auth0.com/docs/actions"
+    }
+]

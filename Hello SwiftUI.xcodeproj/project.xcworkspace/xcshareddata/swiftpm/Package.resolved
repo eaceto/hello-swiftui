@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Auth0",
+        "repositoryURL": "https://github.com/auth0/Auth0.swift.git",
+        "state": {
+          "branch": null,
+          "revision": "8e8a6b0337a27a3342beb72b5407141fdd4a7860",
+          "version": "1.35.0"
+        }
+      },
+      {
+        "package": "BetterSafariView",
+        "repositoryURL": "https://github.com/stleamist/BetterSafariView",
+        "state": {
+          "branch": null,
+          "revision": "561919b490eddf8f999b0f855cbf237001cbfccd",
+          "version": "2.3.1"
+        }
+      },
+      {
+        "package": "JWTDecode",
+        "repositoryURL": "https://github.com/auth0/JWTDecode.swift.git",
+        "state": {
+          "branch": null,
+          "revision": "22e3d174e9df2962f0268a31dac45e5ea54a6e62",
+          "version": "2.6.1"
+        }
+      },
+      {
+        "package": "SimpleKeychain",
+        "repositoryURL": "https://github.com/auth0/SimpleKeychain.git",
+        "state": {
+          "branch": null,
+          "revision": "2ea8e1bb259774013137c4c47378403f8dcb1cf3",
+          "version": "0.12.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
