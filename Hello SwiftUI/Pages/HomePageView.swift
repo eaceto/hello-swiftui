@@ -22,12 +22,6 @@ struct HomePageView: View {
             ScrollView(.vertical) {
                 VStack {
                     
-                    #if targetEnvironment(macCatalyst)
-                    HStack {
-                        
-                    }
-                    #endif
-                    
                     Button(action: {
                         openSwiftQuickStart()
                     })

@@ -23,6 +23,8 @@ struct FeatureBanner: View {
                     Text(feature.title)
                         .font(.title2)
                         .fontWeight(.bold)
+                    
+                    Spacer()
                 }
                 .padding(EdgeInsets(top: 0, leading: 0, bottom: 16, trailing: 0))
                 
@@ -30,10 +32,6 @@ struct FeatureBanner: View {
                     .font(.subheadline)
             }
         }
-        .frame(minWidth: 0,
-               idealWidth: .infinity,
-               maxWidth: .infinity,
-               alignment: .top)
         .padding(24)
         .background(Color(UIColor.secondarySystemGroupedBackground))
         .cornerRadius(16)

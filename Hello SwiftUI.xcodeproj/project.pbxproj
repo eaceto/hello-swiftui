@@ -26,6 +26,14 @@
 		3F314FA126B1F48B00D49B83 /* FeatureBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F314F9F26B1F48B00D49B83 /* FeatureBanner.swift */; };
 		3F314FA426B2C04400D49B83 /* BetterSafariView in Frameworks */ = {isa = PBXBuildFile; productRef = 3F314FA326B2C04400D49B83 /* BetterSafariView */; };
 		3F314FA726B2C06500D49B83 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = 3F314FA626B2C06500D49B83 /* Auth0 */; };
+		3FAEDB4426B2E01200B4717F /* UserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAEDB4326B2E01200B4717F /* UserProfileViewModel.swift */; };
+		3FAEDB4626B2E51C00B4717F /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FAEDB4526B2E51C00B4717F /* Auth0.plist */; };
+		3FAEDB4826B302F000B4717F /* AuthenticationStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAEDB4726B302F000B4717F /* AuthenticationStep.swift */; };
+		3FAEDB4B26B3D42600B4717F /* Cancellable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAEDB4A26B3D42600B4717F /* Cancellable+Extensions.swift */; };
+		3FAEDB4E26B56F4E00B4717F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAEDB4D26B56F4E00B4717F /* ImageLoader.swift */; };
+		3FAEDB5026B56F9C00B4717F /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAEDB4F26B56F9C00B4717F /* NetworkImage.swift */; };
+		3FAEDB5226B590D600B4717F /* UserProfileInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAEDB5126B590D600B4717F /* UserProfileInfoView.swift */; };
+		3FBFDAD426B68099007A3BEE /* AppFeatureDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFDAD326B68099007A3BEE /* AppFeatureDescription.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +78,14 @@
 		3F314F9A26B1F47E00D49B83 /* about_links.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = about_links.json; sourceTree = "<group>"; };
 		3F314F9E26B1F48B00D49B83 /* FeaturedBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedBanner.swift; sourceTree = "<group>"; };
 		3F314F9F26B1F48B00D49B83 /* FeatureBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureBanner.swift; sourceTree = "<group>"; };
+		3FAEDB4326B2E01200B4717F /* UserProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewModel.swift; sourceTree = "<group>"; };
+		3FAEDB4526B2E51C00B4717F /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		3FAEDB4726B302F000B4717F /* AuthenticationStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationStep.swift; sourceTree = "<group>"; };
+		3FAEDB4A26B3D42600B4717F /* Cancellable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cancellable+Extensions.swift"; sourceTree = "<group>"; };
+		3FAEDB4D26B56F4E00B4717F /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		3FAEDB4F26B56F9C00B4717F /* NetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImage.swift; sourceTree = "<group>"; };
+		3FAEDB5126B590D600B4717F /* UserProfileInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileInfoView.swift; sourceTree = "<group>"; };
+		3FBFDAD326B68099007A3BEE /* AppFeatureDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeatureDescription.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,16 +138,20 @@
 		3F314F5A26B1DE7F00D49B83 /* Hello SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				3FAEDB4C26B56F3000B4717F /* Networking */,
+				3FAEDB4926B3D41800B4717F /* Extensions */,
 				3F314F9D26B1F48500D49B83 /* Views */,
 				3F314F9826B1F47800D49B83 /* Resources */,
 				3F314F8F26B1F46B00D49B83 /* Pages */,
 				3F314F8A26B1F45D00D49B83 /* Model */,
+				3FAEDB4226B2DFFF00B4717F /* ViewModel */,
 				3F314F8726B1F44900D49B83 /* Configuration */,
 				3F314F8626B1E03B00D49B83 /* Hello SwiftUI.entitlements */,
 				3F314F5B26B1DE7F00D49B83 /* Hello_SwiftUIApp.swift */,
 				3F314F5D26B1DE7F00D49B83 /* MainView.swift */,
 				3F314F5F26B1DE8000D49B83 /* Assets.xcassets */,
 				3F314F6426B1DE8000D49B83 /* Info.plist */,
+				3FAEDB4526B2E51C00B4717F /* Auth0.plist */,
 				3F314F6126B1DE8000D49B83 /* Preview Content */,
 			);
 			path = "Hello SwiftUI";
@@ -176,6 +196,7 @@
 			children = (
 				3F314F8B26B1F46500D49B83 /* Feature.swift */,
 				3F314F8C26B1F46500D49B83 /* Link.swift */,
+				3FAEDB4726B302F000B4717F /* AuthenticationStep.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -205,8 +226,35 @@
 			children = (
 				3F314F9F26B1F48B00D49B83 /* FeatureBanner.swift */,
 				3F314F9E26B1F48B00D49B83 /* FeaturedBanner.swift */,
+				3FAEDB4F26B56F9C00B4717F /* NetworkImage.swift */,
+				3FAEDB5126B590D600B4717F /* UserProfileInfoView.swift */,
+				3FBFDAD326B68099007A3BEE /* AppFeatureDescription.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3FAEDB4226B2DFFF00B4717F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3FAEDB4326B2E01200B4717F /* UserProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3FAEDB4926B3D41800B4717F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3FAEDB4A26B3D42600B4717F /* Cancellable+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3FAEDB4C26B56F3000B4717F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3FAEDB4D26B56F4E00B4717F /* ImageLoader.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +368,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FAEDB4626B2E51C00B4717F /* Auth0.plist in Resources */,
 				3F314F6326B1DE8000D49B83 /* Preview Assets.xcassets in Resources */,
 				3F314F6026B1DE8000D49B83 /* Assets.xcassets in Resources */,
 				3F314F9B26B1F47E00D49B83 /* features.json in Resources */,
@@ -349,15 +398,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F314F8D26B1F46500D49B83 /* Feature.swift in Sources */,
+				3FBFDAD426B68099007A3BEE /* AppFeatureDescription.swift in Sources */,
 				3F314F9626B1F47300D49B83 /* AboutPageView.swift in Sources */,
+				3FAEDB4E26B56F4E00B4717F /* ImageLoader.swift in Sources */,
 				3F314F8926B1F45A00D49B83 /* AppConfiguration.swift in Sources */,
 				3F314FA026B1F48B00D49B83 /* FeaturedBanner.swift in Sources */,
+				3FAEDB4B26B3D42600B4717F /* Cancellable+Extensions.swift in Sources */,
 				3F314FA126B1F48B00D49B83 /* FeatureBanner.swift in Sources */,
+				3FAEDB4826B302F000B4717F /* AuthenticationStep.swift in Sources */,
+				3FAEDB4426B2E01200B4717F /* UserProfileViewModel.swift in Sources */,
 				3F314F5E26B1DE7F00D49B83 /* MainView.swift in Sources */,
+				3FAEDB5026B56F9C00B4717F /* NetworkImage.swift in Sources */,
 				3F314F5C26B1DE7F00D49B83 /* Hello_SwiftUIApp.swift in Sources */,
 				3F314F9726B1F47300D49B83 /* UserProfilePageView.swift in Sources */,
 				3F314F9426B1F47300D49B83 /* HomePageView.swift in Sources */,
 				3F314F8E26B1F46500D49B83 /* Link.swift in Sources */,
+				3FAEDB5226B590D600B4717F /* UserProfileInfoView.swift in Sources */,
 				3F314F9526B1F47300D49B83 /* APITestPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

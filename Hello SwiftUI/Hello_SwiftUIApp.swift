@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct Hello_SwiftUIApp: App {
+    
+    @ObservedObject private var userProfileViewModel = UserProfileViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            MainView().environmentObject(AppConfiguration())
+            MainView()
+                .environmentObject(AppConfiguration())
+                .onAppear(perform: {
+                    userProfileViewModel.loadCredentials()
+                })
         }
     }
 }
