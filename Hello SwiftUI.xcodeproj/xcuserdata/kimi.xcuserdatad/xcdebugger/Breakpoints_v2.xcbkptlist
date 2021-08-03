@@ -7,16 +7,128 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "50571CA2-3244-472F-B70E-704B8AB41C2F"
+            uuid = "18F443F0-2B79-4D9F-B8A4-DC3F69BBBC9F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hello SwiftUI/Networking/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "performRequest(method:url:headers:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "18F443F0-2B79-4D9F-B8A4-DC3F69BBBC9F - 47ce63dbc1742bbf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((data: Foundation.Data, response: __C.NSURLResponse)) throws -&gt; Hello_SwiftUI.HTTPClient.Response&lt;&#x3c4;_0_0&gt; in Hello_SwiftUI.HTTPClient.performRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.StringProtocol&gt;(method: Swift.String, url: Swift.String, headers: Swift.Dictionary&lt;Swift.String, Swift.String&gt;) -&gt; Combine.AnyPublisher&lt;Hello_SwiftUI.HTTPClient.Response&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;"
+                  moduleName = "Hello SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimi/Works/auth0/SwiftUI/Hello%20SwiftUI/Hello%20SwiftUI/Networking/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "500">
+               </Location>
+               <Location
+                  uuid = "18F443F0-2B79-4D9F-B8A4-DC3F69BBBC9F - 47ce63dbc1742bbf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((data: Foundation.Data, response: __C.NSURLResponse)) throws -&gt; Hello_SwiftUI.HTTPClient.Response&lt;&#x3c4;_0_0&gt; in Hello_SwiftUI.HTTPClient.performRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.StringProtocol&gt;(method: Swift.String, url: Swift.String, headers: Swift.Dictionary&lt;Swift.String, Swift.String&gt;) -&gt; Combine.AnyPublisher&lt;Hello_SwiftUI.HTTPClient.Response&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;"
+                  moduleName = "Hello SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimi/Works/auth0/SwiftUI/Hello%20SwiftUI/Hello%20SwiftUI/Networking/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "704">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "168310D4-7CB0-4048-ADAD-3CE4C1808A43"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Hello SwiftUI/ViewModel/UserProfileViewModel.swift"
+            filePath = "Hello SwiftUI/ViewModel/ExternalAPIViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
-            landmarkName = "jsonEncodedProfile()"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "performRequest(method:url:accessToken:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41612DC8-6947-4F98-88AB-15DAB78E3F73"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hello SwiftUI/ViewModel/ExternalAPIViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "performRequest(method:url:accessToken:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE98CD3B-8C36-4D3F-9419-0A61868F9347"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hello SwiftUI/ViewModel/ExternalAPIViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "performRequest(method:url:accessToken:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6AE33B1-267B-46A4-92C5-06E9EAA8649E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hello SwiftUI/Networking/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "performRequest(method:url:headers:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7753A79-62BF-4A68-8E97-967160AF8158"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hello SwiftUI/Networking/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "performRequest(method:url:headers:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -14,8 +14,6 @@ class UserProfileViewModel: ObservableObject {
     
     private let credentialsManager = CredentialsManager(authentication: Auth0.authentication())
     
-    private var disposables = Set<AnyCancellable>()
-
     @Published var userProfile: Auth0.UserInfo? = nil
     @Published var userCredentials: Auth0.Credentials? = nil {
         didSet {

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F26D13226B706D9003EA019 /* ExternalAPIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26D13126B706D9003EA019 /* ExternalAPIView.swift */; };
+		3F26D13526B7D4E4003EA019 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 3F26D13426B7D4E4003EA019 /* AlertToast */; };
+		3F26D13726B7E524003EA019 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26D13626B7E524003EA019 /* HTTPClient.swift */; };
+		3F26D13926B81D88003EA019 /* ExternalAPIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26D13826B81D88003EA019 /* ExternalAPIViewModel.swift */; };
 		3F314F5C26B1DE7F00D49B83 /* Hello_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F314F5B26B1DE7F00D49B83 /* Hello_SwiftUIApp.swift */; };
 		3F314F5E26B1DE7F00D49B83 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F314F5D26B1DE7F00D49B83 /* MainView.swift */; };
 		3F314F6026B1DE8000D49B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F314F5F26B1DE8000D49B83 /* Assets.xcassets */; };
@@ -54,6 +58,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F26D13126B706D9003EA019 /* ExternalAPIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalAPIView.swift; sourceTree = "<group>"; };
+		3F26D13626B7E524003EA019 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		3F26D13826B81D88003EA019 /* ExternalAPIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalAPIViewModel.swift; sourceTree = "<group>"; };
 		3F314F5826B1DE7F00D49B83 /* Hello SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F314F5B26B1DE7F00D49B83 /* Hello_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_SwiftUIApp.swift; sourceTree = "<group>"; };
 		3F314F5D26B1DE7F00D49B83 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -93,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F26D13526B7D4E4003EA019 /* AlertToast in Frameworks */,
 				3F314FA426B2C04400D49B83 /* BetterSafariView in Frameworks */,
 				3F314FA726B2C06500D49B83 /* Auth0 in Frameworks */,
 			);
@@ -229,6 +237,7 @@
 				3FAEDB4F26B56F9C00B4717F /* NetworkImage.swift */,
 				3FAEDB5126B590D600B4717F /* UserProfileInfoView.swift */,
 				3FBFDAD326B68099007A3BEE /* AppFeatureDescription.swift */,
+				3F26D13126B706D9003EA019 /* ExternalAPIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -237,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				3FAEDB4326B2E01200B4717F /* UserProfileViewModel.swift */,
+				3F26D13826B81D88003EA019 /* ExternalAPIViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -253,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				3FAEDB4D26B56F4E00B4717F /* ImageLoader.swift */,
+				3F26D13626B7E524003EA019 /* HTTPClient.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -276,6 +287,7 @@
 			packageProductDependencies = (
 				3F314FA326B2C04400D49B83 /* BetterSafariView */,
 				3F314FA626B2C06500D49B83 /* Auth0 */,
+				3F26D13426B7D4E4003EA019 /* AlertToast */,
 			);
 			productName = "Hello SwiftUI";
 			productReference = 3F314F5826B1DE7F00D49B83 /* Hello SwiftUI.app */;
@@ -351,6 +363,7 @@
 			packageReferences = (
 				3F314FA226B2C04400D49B83 /* XCRemoteSwiftPackageReference "BetterSafariView" */,
 				3F314FA526B2C06500D49B83 /* XCRemoteSwiftPackageReference "Auth0.swift" */,
+				3F26D13326B7D4E4003EA019 /* XCRemoteSwiftPackageReference "AlertToast" */,
 			);
 			productRefGroup = 3F314F5926B1DE7F00D49B83 /* Products */;
 			projectDirPath = "";
@@ -398,7 +411,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F314F8D26B1F46500D49B83 /* Feature.swift in Sources */,
+				3F26D13926B81D88003EA019 /* ExternalAPIViewModel.swift in Sources */,
 				3FBFDAD426B68099007A3BEE /* AppFeatureDescription.swift in Sources */,
+				3F26D13226B706D9003EA019 /* ExternalAPIView.swift in Sources */,
+				3F26D13726B7E524003EA019 /* HTTPClient.swift in Sources */,
 				3F314F9626B1F47300D49B83 /* AboutPageView.swift in Sources */,
 				3FAEDB4E26B56F4E00B4717F /* ImageLoader.swift in Sources */,
 				3F314F8926B1F45A00D49B83 /* AppConfiguration.swift in Sources */,
@@ -740,6 +756,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		3F26D13326B7D4E4003EA019 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
 		3F314FA226B2C04400D49B83 /* XCRemoteSwiftPackageReference "BetterSafariView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/stleamist/BetterSafariView";
@@ -759,6 +783,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3F26D13426B7D4E4003EA019 /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F26D13326B7D4E4003EA019 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
 		3F314FA326B2C04400D49B83 /* BetterSafariView */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3F314FA226B2C04400D49B83 /* XCRemoteSwiftPackageReference "BetterSafariView" */;

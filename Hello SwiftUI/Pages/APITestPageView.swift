@@ -16,23 +16,25 @@ struct APITestPageView: View {
     var body: some View {
         NavigationView {
             ScrollView(.vertical) {
+ 
                 AppFeatureDescription(title: "External API",
                                           description: "You can use the buttons below make calls to an external API.\nOnly logged-in users can access use this page.")
                     .padding()
-                    
+                
                 VStack {
                     if let authenticationStep = authenticationStep {
                         switch authenticationStep {
                         case .nonAuthenticated:
                             userNonAuthenticatedView
                         case .hasUserProfile:
-                            Spacer()
+                            ExternalAPIView(accessToken: userProfileViewModel.userCredentials?.accessToken)
                         default:
                             Spacer()
                         }
                     }
                 }
-                .padding()
+                .padding(.horizontal, 16)
+                .padding(.bottom, 16)
                 .navigationTitle("External API")
                 .navigationBarTitleDisplayMode(.large)
                 .navigationBarItems(trailing: loginButton)

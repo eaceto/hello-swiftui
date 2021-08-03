@@ -2,12 +2,21 @@
   "object": {
     "pins": [
       {
+        "package": "AlertToast",
+        "repositoryURL": "https://github.com/elai950/AlertToast.git",
+        "state": {
+          "branch": null,
+          "revision": "a4f4267f6454259ba4ed8f9dadb87334a789c26c",
+          "version": "1.3.7"
+        }
+      },
+      {
         "package": "Auth0",
         "repositoryURL": "https://github.com/auth0/Auth0.swift.git",
         "state": {
           "branch": null,
-          "revision": "8e8a6b0337a27a3342beb72b5407141fdd4a7860",
-          "version": "1.35.0"
+          "revision": "e7feca5a575fe0ac074c14407bdb92e868a31f37",
+          "version": "1.38.0"
         }
       },
       {
@@ -15,8 +24,8 @@
         "repositoryURL": "https://github.com/stleamist/BetterSafariView",
         "state": {
           "branch": null,
-          "revision": "561919b490eddf8f999b0f855cbf237001cbfccd",
-          "version": "2.3.1"
+          "revision": "be7248720af18c57c7a1348b20f6212379b28c6b",
+          "version": "2.4.0"
         }
       },
       {
@@ -24,8 +33,8 @@
         "repositoryURL": "https://github.com/auth0/JWTDecode.swift.git",
         "state": {
           "branch": null,
-          "revision": "22e3d174e9df2962f0268a31dac45e5ea54a6e62",
-          "version": "2.6.1"
+          "revision": "3cd207fb9e943b6168a117baa3936c823204c2dc",
+          "version": "2.6.3"
         }
       },
       {
@@ -33,8 +42,8 @@
         "repositoryURL": "https://github.com/auth0/SimpleKeychain.git",
         "state": {
           "branch": null,
-          "revision": "2ea8e1bb259774013137c4c47378403f8dcb1cf3",
-          "version": "0.12.3"
+          "revision": "b355c569efcd409e252ccbb500d9fc2713b4d64d",
+          "version": "0.12.5"
         }
       }
     ]

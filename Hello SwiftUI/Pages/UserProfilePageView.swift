@@ -19,8 +19,8 @@ struct UserProfilePageView: View {
                 
                 AppFeatureDescription(title: "Profile",
                                           description: "You can use an ID Token to get the profile information of a logged-in user.")
-                    .padding()
-           
+                    .padding(16)
+                
                 VStack {
                     if let authenticationStep = authenticationStep {
                         switch authenticationStep {
@@ -33,13 +33,14 @@ struct UserProfilePageView: View {
                         }
                     }
                 }
-                .padding()
-                .navigationTitle("User Profile")
-                .navigationBarTitleDisplayMode(.large)
-                .navigationBarItems(trailing: loginButton)
+                .padding(.horizontal, 16)
+                .padding(.bottom, 16)
             }
             .frame(maxWidth: .infinity)
             .background(Color(UIColor.systemGroupedBackground))
+            .navigationTitle("User Profile")
+            .navigationBarTitleDisplayMode(.large)
+            .navigationBarItems(trailing: loginButton)
         }
         .background(Color(UIColor.systemGroupedBackground))
         .navigationViewStyle(StackNavigationViewStyle())
